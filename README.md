@@ -131,10 +131,12 @@ Example dashboard:
 ---
 
 ## Repository Structure
+```
 data/ -> raw and cleaned datasets
 notebook/ -> data cleaning and EDA notebooks
 powerbi/ -> Power BI dashboard (.pbix) and screenshots
 reports/ -> data quality report and documentation
+```
 
 ---
 

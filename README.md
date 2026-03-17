@@ -56,17 +56,17 @@ Reference dataset used for campaign classification and grouping.
 ### 2. Outcome Categorization
 
 Raw outcomes were grouped into structured categories:
-* Not Connected
-* Invalid Contact
-* Follow-up Required
-* Application in Progress
-* Document Pending
-* Deposit Pending
-* Confirmed Enrollment
-* Deferred / Future Term
-* Not Interested
-
-
+```
+Not Connected
+Invalid Contact
+Follow-up Required
+Application in Progress
+Document Pending
+Deposit Pending
+Confirmed Enrollment
+Deferred / Future Term
+Not Interested
+```
 This enabled consistent analysis across datasets.
 
 ---
@@ -86,7 +86,9 @@ Performed analysis on:
 ### 4. Funnel Analysis
 
 A structured admission funnel was created:
-* Leads → Connected → Application → Deposit → Enrolled
+```
+Leads → Connected → Application → Deposit → Enrolled
+```
 This helped identify drop-offs and inefficiencies in the process.
 
 ---
@@ -112,6 +114,7 @@ The final analysis was visualized in Power BI, including:
   - Admission funnel analysis
 
 Example dashboard:
+
 ![Dashboard](powerbi/Dashboard.png)
 
 ---
